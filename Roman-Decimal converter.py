@@ -19,7 +19,7 @@ def ToDecimal (number): # Expects a list from RomanValueList()
         if left < 0: # Don't overrun the beginning of the list
             break    # This should never happen anyway.
         else:
-            # process the pair
+            # Process every pair of roman digits with a simple rule.
             if number[left] < number[right]:
                 answer -= number[left]
             else:
