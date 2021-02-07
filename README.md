@@ -1,2 +1,2 @@
 # ShortStuff
-Small programs and practice pieces
+Small programs and practice pieces.
